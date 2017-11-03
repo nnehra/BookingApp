@@ -18,24 +18,18 @@ namespace AppoinmentBookingApplication.Controllers
             this._doctorDetails = doctorDetails;
         }
 
+        [HttpGet]
         public HttpResponseMessage GetDoctorDetails()
         {
             IEnumerable<Doctor> doctorList = this._doctorDetails.GetDoctorDetails();
             return Request.CreateResponse(HttpStatusCode.OK, doctorList);
         }
 
-        [Route("DoctorDetails")]
+        [HttpGet]
         public HttpResponseMessage GetDoctorDetails(int id)
         {
             Doctor doc = this._doctorDetails.GetDoctorDetailsById(id);
             return Request.CreateResponse(HttpStatusCode.OK, doc);
-        }
-
-        [Route("AvailableTimeSlots")]
-        public HttpResponseMessage GetAvailableTimeSlots(int id)
-        {
-            IEnumerable<TimeSlots> time = this._doctorDetails.GetAvailableTimeSlots(id);
-            return Request.CreateResponse(HttpStatusCode.OK, time);
         }
     }
 }
