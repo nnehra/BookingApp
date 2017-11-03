@@ -16,7 +16,7 @@ namespace AppointmentBooking.BAL.DoctorService
         public IEnumerable<Doctor> GetDoctorDetails()
         {
             IEnumerable<Doctor> docList;
-            using (StreamReader sr = new StreamReader("~/Content/Data.json"))
+            using (StreamReader sr = new StreamReader(@"C://Users/Neha_Nehra/Documents/visual studio 2015/Projects/AppoinmentBookingApplication/AppointmentBooking.BALs/Content/Data.json"))
             {
                 docList = JsonConvert.DeserializeObject<IEnumerable<Doctor>>(sr.ReadToEnd());
             }
@@ -25,8 +25,12 @@ namespace AppointmentBooking.BAL.DoctorService
 
         public Doctor GetDoctorDetailsById(int doctorId)
         {
+            if (doctorId <= 0)
+            {
+                throw new ArgumentNullException();
+            }
             IEnumerable<Doctor> docList;
-            using (StreamReader sr = new StreamReader("~/App_Data/Data.json"))
+            using (StreamReader sr = new StreamReader(@"C://Users/Neha_Nehra/Documents/visual studio 2015/Projects/AppoinmentBookingApplication/AppointmentBooking.BALs/Content/Data.json"))
             {
                 docList = JsonConvert.DeserializeObject<IEnumerable<Doctor>>(sr.ReadToEnd());
             }
@@ -35,7 +39,16 @@ namespace AppointmentBooking.BAL.DoctorService
         }
         public IEnumerable<TimeSlots> GetAvailableTimeSlots(int doctorId)
         {
-            throw new NotImplementedException();
+            if (doctorId <= 0)
+            {
+                throw new ArgumentNullException();
+            }
+            IEnumerable<TimeSlots> timeSlots;
+            using (StreamReader sr = new StreamReader(@"C://Users/Neha_Nehra/Documents/visual studio 2015/Projects/AppoinmentBookingApplication/AppointmentBooking.BALs/Content/Data.json"))
+            {
+                timeSlots = JsonConvert.DeserializeObject<IEnumerable<Doctor>>(sr.ReadToEnd()).Where(x => x.DoctorId == doctorId).FirstOrDefault().TimeSlot;
+            }
+            return timeSlots;
         }
     }
 }

@@ -11,7 +11,7 @@ namespace AppointmentBooking.BAL.Models
 
         public string Name { get; set; }
 
-        public string Speciality { get; set; }
+        public string Specialization { get; set; }
 
         public List<TimeSlots> TimeSlot { get; set; }
     }

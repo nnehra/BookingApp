@@ -8,7 +8,7 @@ namespace AppointmentBooking.BAL.Models
 {
     public class TimeSlots
     {
-        public int SlotId { get; set; }
-        public string TimeSlot { get; set; }
+        public int Id { get; set; }
+        public string Time { get; set; }
     }
 }

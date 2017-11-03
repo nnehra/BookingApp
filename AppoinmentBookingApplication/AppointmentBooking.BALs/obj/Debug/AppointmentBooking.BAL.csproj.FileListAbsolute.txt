@@ -1,7 +1,7 @@
-c:\users\neha_nehra\documents\visual studio 2015\Projects\AppoinmentBookingApplication\AppointmentBooking.BALs\bin\Debug\AppointmentBooking.BALs.dll
-c:\users\neha_nehra\documents\visual studio 2015\Projects\AppoinmentBookingApplication\AppointmentBooking.BALs\bin\Debug\AppointmentBooking.BALs.pdb
-c:\users\neha_nehra\documents\visual studio 2015\Projects\AppoinmentBookingApplication\AppointmentBooking.BALs\bin\Debug\Newtonsoft.Json.dll
-c:\users\neha_nehra\documents\visual studio 2015\Projects\AppoinmentBookingApplication\AppointmentBooking.BALs\bin\Debug\Newtonsoft.Json.xml
-c:\users\neha_nehra\documents\visual studio 2015\Projects\AppoinmentBookingApplication\AppointmentBooking.BALs\obj\Debug\AppointmentBooking.BAL.csprojResolveAssemblyReference.cache
-c:\users\neha_nehra\documents\visual studio 2015\Projects\AppoinmentBookingApplication\AppointmentBooking.BALs\obj\Debug\AppointmentBooking.BALs.dll
-c:\users\neha_nehra\documents\visual studio 2015\Projects\AppoinmentBookingApplication\AppointmentBooking.BALs\obj\Debug\AppointmentBooking.BALs.pdb
+C:\Users\Neha_Nehra\documents\visual studio 2015\Projects\AppoinmentBookingApplication\AppointmentBooking.BALs\bin\Debug\AppointmentBooking.BALs.dll
+C:\Users\Neha_Nehra\documents\visual studio 2015\Projects\AppoinmentBookingApplication\AppointmentBooking.BALs\bin\Debug\AppointmentBooking.BALs.pdb
+C:\Users\Neha_Nehra\documents\visual studio 2015\Projects\AppoinmentBookingApplication\AppointmentBooking.BALs\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Neha_Nehra\documents\visual studio 2015\Projects\AppoinmentBookingApplication\AppointmentBooking.BALs\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Neha_Nehra\documents\visual studio 2015\Projects\AppoinmentBookingApplication\AppointmentBooking.BALs\obj\Debug\AppointmentBooking.BAL.csprojResolveAssemblyReference.cache
+C:\Users\Neha_Nehra\documents\visual studio 2015\Projects\AppoinmentBookingApplication\AppointmentBooking.BALs\obj\Debug\AppointmentBooking.BALs.dll
+C:\Users\Neha_Nehra\documents\visual studio 2015\Projects\AppoinmentBookingApplication\AppointmentBooking.BALs\obj\Debug\AppointmentBooking.BALs.pdb

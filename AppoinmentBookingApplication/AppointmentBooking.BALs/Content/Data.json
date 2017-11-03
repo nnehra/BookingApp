@@ -3,30 +3,135 @@
     "DoctorId": 1,
     "Name": "Dr. Santosh Kumar",
     "Specialization": "General Physician",
-    "TimeSlot": [ "9:30-10am", "10-10:30,am", "12-12:30pm", "1-1:30pm", "2-2:30pm", "2:30-3pm" ]
+    "TimeSlot": [
+      {
+        "Id": 1,
+        "Time": "9:30-10am"
+      },
+      {
+        "Id": 2,
+        "Time": "12-12:30pm"
+      },
+      {
+        "Id": 3,
+        "Time": "1-1:30pm"
+      },
+      {
+        "Id": 4,
+        "Time": "2-2:30pm"
+      },
+      {
+        "Id": 5,
+        "Time": "2:30-3pm"
+      }
+    ]
   },
   {
     "DoctorId": 2,
     "Name": "Dr. Vineeta Joshi",
     "Specialization": "Gynecologist",
-    "TimeSlot": [ "9:30-10am", "10-10:30am", "12-12:30pm", "1-1:30pm", "2-2:30pm", "2:30-3pm" ]
+    "TimeSlot": [
+      {
+        "Id": 1,
+        "Time": "9:30-10am"
+      },
+      {
+        "Id": 2,
+        "Time": "12-12:30pm"
+      },
+      {
+        "Id": 3,
+        "Time": "1-1:30pm"
+      },
+      {
+        "Id": 4,
+        "Time": "2-2:30pm"
+      },
+      {
+        "Id": 5,
+        "Time": "2:30-3pm"
+      }
+    ]
   },
   {
     "DoctorId": 3,
     "Name": "Dr. Divya Pavani",
     "Specialization": "Pediatrician",
-    "TimeSlot": [ "9:30-10am", "10-10:30am", "12-12:30pm", "1-1:30pm", "2-2:30pm", "2:30-3pm" ]
+    "TimeSlot": [
+      {
+        "Id": 1,
+        "Time": "9:30-10am"
+      },
+      {
+        "Id": 2,
+        "Time": "12-12:30pm"
+      },
+      {
+        "Id": 3,
+        "Time": "1-1:30pm"
+      },
+      {
+        "Id": 4,
+        "Time": "2-2:30pm"
+      },
+      {
+        "Id": 5,
+        "Time": "2:30-3pm"
+      }
+    ]
   },
   {
     "DoctorId": 4,
     "Name": "Dr. Chhavi Jain",
     "Specialization": "Dermatologist",
-    "TimeSlot": [ "9:30-10am", "10-10:30am", "12-12:30pm", "1-1:30pm", "2-2:30pm", "2:30-3pm" ]
+    "TimeSlot": [
+      {
+        "Id": 1,
+        "Time": "9:30-10am"
+      },
+      {
+        "Id": 2,
+        "Time": "12-12:30pm"
+      },
+      {
+        "Id": 3,
+        "Time": "1-1:30pm"
+      },
+      {
+        "Id": 4,
+        "Time": "2-2:30pm"
+      },
+      {
+        "Id": 5,
+        "Time": "2:30-3pm"
+      }
+    ]
   },
   {
     "DoctorId": 5,
     "Name": "Dr. Prabhu Ramaswamy",
     "Specialization": "Neurologist ",
-    "TimeSlot": [ "9:30-10am", "10-10:30am", "12-12:30pm", "1-1:30pm", "2-2:30pm", "2:30-3pm" ]
+    "TimeSlot": [
+      {
+        "Id": 1,
+        "Time": "9:30-10am"
+      },
+      {
+        "Id": 2,
+        "Time": "12-12:30pm"
+      },
+      {
+        "Id": 3,
+        "Time": "1-1:30pm"
+      },
+      {
+        "Id": 4,
+        "Time": "2-2:30pm"
+      },
+      {
+        "Id": 5,
+        "Time": "2:30-3pm"
+      }
+    ]
   }
 ]

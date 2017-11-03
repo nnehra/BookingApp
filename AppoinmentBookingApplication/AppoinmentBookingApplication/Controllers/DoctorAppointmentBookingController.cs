@@ -5,6 +5,7 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using AppointmentBooking.BAL.DoctorService;
+using AppointmentBooking.BAL.Models;
 
 namespace AppoinmentBookingApplication.Controllers
 {
@@ -17,16 +18,24 @@ namespace AppoinmentBookingApplication.Controllers
             this._doctorDetails = doctorDetails;
         }
 
-        public HttpResponseMessage Get()
+        public HttpResponseMessage GetDoctorDetails()
         {
-            var doctor = this._doctorDetails.GetDoctorDetails();
-            return Request.CreateResponse(HttpStatusCode.OK, doctor);
+            IEnumerable<Doctor> doctorList = this._doctorDetails.GetDoctorDetails();
+            return Request.CreateResponse(HttpStatusCode.OK, doctorList);
         }
 
-        public HttpResponseMessage Get(int id)
+        [Route("DoctorDetails")]
+        public HttpResponseMessage GetDoctorDetails(int id)
         {
-            var doctor = this._doctorDetails.GetDoctorDetailsById(id);
-            return Request.CreateResponse(HttpStatusCode.OK, doctor);
+            Doctor doc = this._doctorDetails.GetDoctorDetailsById(id);
+            return Request.CreateResponse(HttpStatusCode.OK, doc);
+        }
+
+        [Route("AvailableTimeSlots")]
+        public HttpResponseMessage GetAvailableTimeSlots(int id)
+        {
+            IEnumerable<TimeSlots> time = this._doctorDetails.GetAvailableTimeSlots(id);
+            return Request.CreateResponse(HttpStatusCode.OK, time);
         }
     }
 }
